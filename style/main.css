@@ -17,6 +17,7 @@ body {
 
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -28,7 +29,7 @@ header .container {
 
 header .container .text-logo {
     margin-left: 5px;
-    color: var(--vermelho);
+    color: rgb(88, 121, 118);
     font-family: 'Arial Black', Times;
     font-size: 20px;
 }
@@ -43,4 +44,25 @@ header nav a:hover {
 
     color: #fff;
 
+}
+
+/*caracteristicas filme-principal*/
+.instrumento-principal {
+    font-size: 17px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/principal-capa.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start ;
+}
+
+.instrumento-principal .descricao-principal {
+    margin-bottom: 90px;
+}
+
+.instrumento-principal .titulo-principal {
+    font-size: 35px;
 }
