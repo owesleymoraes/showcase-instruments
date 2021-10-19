@@ -21,10 +21,10 @@ body {
 }
 
 header .container {
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .container .text-logo {
@@ -49,20 +49,58 @@ header nav a:hover {
 /*caracteristicas filme-principal*/
 .instrumento-principal {
     font-size: 17px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/principal-capa.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/principal-capa.jpg');
     height: 400px;
     background-size: cover;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start ;
+    align-items: flex-start;
 }
 
 .instrumento-principal .descricao-principal {
+    margin-top: 15px;
     margin-bottom: 90px;
 }
 
 .instrumento-principal .titulo-principal {
+    margin-top: 0%;
     font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.instrumento-principal .style-button {
+    background-color: rgba(0, 0, 0, .50);
+    border: gray, solid, 2px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    
+}
+
+.instrumento-principal .style-button:hover{
+    background-color: white;
+    color: #141414;
+}
+
+.instrumento-principal .style-button i {
+    margin-right: 8px;
+}
+
+.instrumento-principal .container {
+    margin-left:20px ;
+    width: 70%;
+   
+}
+
+.box-instrumentos{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
