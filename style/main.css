@@ -81,10 +81,10 @@ header nav a:hover {
     margin-right: 15px;
     cursor: pointer;
     transition: .3s ease all;
-    
+
 }
 
-.instrumento-principal .style-button:hover{
+.instrumento-principal .style-button:hover {
     background-color: white;
     color: #141414;
 }
@@ -94,12 +94,13 @@ header nav a:hover {
 }
 
 .instrumento-principal .container {
-    margin-left:20px ;
+    margin-left: 20px;
     width: 70%;
-   
+
 }
 
-.box-instrumentos{
+.box-instrumentos {
+    margin-top: 40px;
     height: 100%;
     width: 100%;
     display: block;
