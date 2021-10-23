@@ -46,7 +46,7 @@ header nav a:hover {
 
 }
 
-/*caracteristicas filme-principal*/
+/*caracteristicas instrumento-principal*/
 .instrumento-principal {
     font-size: 17px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/principal-capa.jpg');
@@ -60,14 +60,14 @@ header nav a:hover {
 }
 
 .instrumento-principal .descricao-principal {
-    margin-top: 15px;
-    margin-bottom: 90px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .instrumento-principal .titulo-principal {
-    margin-top: 0%;
-    font-size: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 
@@ -100,7 +100,24 @@ header nav a:hover {
 }
 
 .patern-img {
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     height: 200px;
     object-fit: cover;
+}
+
+.box-instrumentos {
+    text-align: center;
+}
+
+.box-instrumentos a {
+
+    text-decoration: none;
+    color: var(--cinza-tematico);
+    margin-right: 10px;
+}
+
+
+.box-instrumentos a:hover {
+    color: #fff;
 }

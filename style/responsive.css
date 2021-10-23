@@ -1,0 +1,63 @@
+@media screen and (max-width:700px) {
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .text-logo {
+        margin-bottom: 15px;
+    }
+
+    .ancora-instrumentos{
+        margin-bottom: 25px;
+    }
+
+  
+
+    .instrumento-principal .descricao-principal {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .instrumento-principal .titulo-principal {
+        margin-top: 15%;
+
+    }
+
+
+    .style-button {
+
+        height: 40px;
+        width: 200px;
+        margin-bottom: 50px;
+
+    }
+
+    .titulo-principal {
+        margin-top: 5px;
+    }
+
+
+    .patern-img {
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .box-instrumentos {
+
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (min-width:1000px) {
+    .descricao-principal {
+        width: 50%;
+    }
+
+}
