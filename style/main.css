@@ -121,3 +121,9 @@ header nav a:hover {
 .box-instrumentos a:hover {
     color: #fff;
 }
+
+.footer p {
+    
+    margin-right: 10px;
+    margin-left: 10px;
+}
