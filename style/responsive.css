@@ -1,4 +1,4 @@
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
 
     header .container {
         display: flex;
@@ -11,31 +11,36 @@
         margin-bottom: 15px;
     }
 
-    .ancora-instrumentos{
+    .ancora-instrumentos {
         margin-bottom: 25px;
+
     }
 
-  
-
-    .instrumento-principal .descricao-principal {
-        margin-top: 10px;
-        margin-bottom: 20px;
+    .instrumento-principal {
+        height: 550px;
     }
+
+
+    .instrumento-principal .titulo-principal {
+        font-size: 12pt;
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+    }
+
+   
 
     .instrumento-principal .titulo-principal {
         margin-top: 15%;
 
     }
 
-
     .style-button {
-
-        height: 40px;
-        width: 200px;
-        margin-bottom: 50px;
-
+       height: 40px;
+        margin-bottom: 5px;
     }
 
+   
     .titulo-principal {
         margin-top: 5px;
     }
@@ -60,4 +65,23 @@
         width: 50%;
     }
 
+}
+
+@media screen and (max-width:300px){
+
+    .instrumento-principal .descricao-principal {
+        font-size: 10pt;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .style-button {
+        margin-top: 10px;
+    }
+
+    .instrumento-principal {
+        height: 500px;
+    }
+
+    
 }

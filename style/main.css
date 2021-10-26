@@ -122,8 +122,8 @@ header nav a:hover {
     color: #fff;
 }
 
-.footer p {
-    
+.footer {
+    margin-top: 50px;
     margin-right: 10px;
     margin-left: 10px;
 }
